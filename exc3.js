@@ -1,0 +1,5 @@
+var nome = prompt ("Digite seu nome:")
+var sal = prompt ("Digite o seu salário fixo:")
+var vendas = prompt ("Digite o total de vendas efetuadas no mês:")
+var result = (sal+(vendas * 0.15))
+console.log("Você ganhou "+result+" nesse mês" )
